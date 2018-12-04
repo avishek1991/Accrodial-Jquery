@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+	<script src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<title>ACCRODIAL</title>
+<style>
+	.cadr-body{display:none;}
+
+</style>
+<script>
+	$(document).ready(function(){
+	
+	$('.crd-but').click(function() {
+	 $(this).next().slideToggle('fast');//je button click korb setar Body hide show aksathe hobe
+	 $(".cadr-body").not($(this).next()).slideUp('fast');//card 
+	})
+
+})
+</script>
+</head>
+<body>
+	<div class="container">
+		<div class="row m-0 mt-5">
+			<div class="col-8 mx-auto font-weight-bold text-left py-2 bg-info h4 text-light btn m-0 crd-but"><p>1 ACCRODIAL</p></div>
+			<div class="col-8 mx-auto font-weight-light py-2 bg-secondary h4 text-light m-0 border cadr-body">
+			<p>1 In publishing and graphic design, lorem ipsum is a placeholder text used to demonstrate the visual form of a document without relying on meaningful content. Replacing the actual content with placeholder text allows designers to design the form of the content before the content itself has been produced.</p>
+			</div>
+			<div class="col-8 mx-auto font-weight-bold text-left py-2 bg-info h4 text-light btn m-0 crd-but"><p>2 ACCRODIAL</p></div>
+			<div class="col-8 mx-auto font-weight-light py-2 bg-secondary h4 text-light m-0 border cadr-body">
+			<p>2 In publishing and graphic design, lorem ipsum is a placeholder text used to demonstrate the visual form of a document without relying on meaningful content. Replacing the actual content with placeholder text allows designers to design the form of the content before the content itself has been produced.</p>
+			</div>
+			<div class="col-8 mx-auto font-weight-bold text-left py-2 bg-info h4 text-light btn m-0 crd-but"><p>3 ACCRODIAL</p></div>
+			<div class="col-8 mx-auto font-weight-light py-2 bg-secondary h4 text-light m-0 border cadr-body">
+			<p>3 In publishing and graphic design, lorem ipsum is a placeholder text used to demonstrate the visual form of a document without relying on meaningful content. Replacing the actual content with placeholder text allows designers to design the form of the content before the content itself has been produced.</p>
+			</div>
+			<div class="col-8 mx-auto font-weight-bold text-left py-2 bg-info h4 text-light btn m-0 crd-but"><p>4 ACCRODIAL</p></div>
+			<div class="col-8 mx-auto font-weight-light py-2 bg-secondary h4 text-light m-0 border cadr-body">
+			<p>4 In publishing and graphic design, lorem ipsum is a placeholder text used to demonstrate the visual form of a document without relying on meaningful content. Replacing the actual content with placeholder text allows designers to design the form of the content before the content itself has been produced.</p>
+			</div>
+			
+		</div>	
+	</div>
+</body>
+</html>
